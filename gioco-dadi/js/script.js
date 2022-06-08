@@ -4,6 +4,9 @@
 - Messaggio all'utente dell'esito della partita
 */
 
+// DECORAZIONE AGGIUNTIVA inizio pagina prima di iniziare il gioco
+alert('Premi OK per  iniziare')
+
 // Creazione dadi user e computer
 const userDice = Math.floor(Math.random() * 6) + 1;
 const pcDice = Math.floor(Math.random() * 6) + 1;
